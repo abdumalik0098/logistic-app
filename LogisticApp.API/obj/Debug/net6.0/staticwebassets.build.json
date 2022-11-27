@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oZPgrSC3FGuFEf+Xx2sgaLMiGHoFEvp4x+iYSAQ1qqk=",
+  "Source": "LogisticApp.API",
+  "BasePath": "_content/LogisticApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

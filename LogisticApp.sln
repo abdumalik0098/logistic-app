@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticApp.Web", "LogisticApp.Web\LogisticApp.Web.csproj", "{DD7220B0-3C6A-4C6F-B793-387F9B440729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticApp.API", "LogisticApp.API\LogisticApp.API.csproj", "{B58E975B-E094-4BBA-A9D7-36D068DFEFA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD7220B0-3C6A-4C6F-B793-387F9B440729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7220B0-3C6A-4C6F-B793-387F9B440729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7220B0-3C6A-4C6F-B793-387F9B440729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7220B0-3C6A-4C6F-B793-387F9B440729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58E975B-E094-4BBA-A9D7-36D068DFEFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58E975B-E094-4BBA-A9D7-36D068DFEFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58E975B-E094-4BBA-A9D7-36D068DFEFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58E975B-E094-4BBA-A9D7-36D068DFEFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C9742B-77E9-4133-9AAA-761D326A6EAF}
+	EndGlobalSection
+EndGlobal

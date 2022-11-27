@@ -1,0 +1,30 @@
+﻿
+<h3>All Rasxody</h3>
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Auto</th>
+            <th>Speed(km/h)</th>
+            <th>Distance(km)</th>
+            <th>Rasxod Topliva(l/100km)</th>
+            <th>Time(h)</th>
+            <th>Price(rub)</th>
+            <th>All Rasxod</th>
+        </tr>
+        @foreach (var item in ViewBag.Rasxody)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Auto</td>
+                <td>@item.Speed</td>
+                <td>@item.Distance</td>
+                <td>@item.RasxodTopliva</td>
+                <td>@item.Time</td>
+                <td>@item.PriceTopliva</td>
+                <td>@item.AllRasxod</td>
+            </tr>
+        }
+    </thead>
+</table>
